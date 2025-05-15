@@ -1,3 +1,11 @@
+:root {
+  --cor-backgroundpricipal: #f8f8f8;
+  --cor-botao-titulo: #0284C7;
+  --text-color: #F1F5F9;
+  --cor-titulo-tecnologia: #38BDF8;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +24,7 @@ body {
   display: flex;
   gap: 20px;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: var(--cor-backgroundpricipal);
   border-radius: 8px;
   box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +41,6 @@ body {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  background-color: #ccc;
 }
 
 .descricao {
@@ -66,7 +73,7 @@ body {
 .botao-link {
   display: inline-table;
   padding: 10px 20px;
-  background-color: #0284C7;
+  background-color: var(--cor-botao-titulo);
   color: #FFFFFF;
   text-decoration: none;
   border: none;
@@ -102,18 +109,18 @@ body {
 .titulo-tecnologia {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #38BDF8;
+  color: var(--cor-titulo-tecnologia);
 }
 
 .bloco h3 {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #F1F5F9;
+  color: var(--text-color);
 }
 
 .bloco p {
   font-size: 0.9rem;
   line-height: 1.4;
-  color: #F1F5F9;
+  color: var(--text-color);
 }
