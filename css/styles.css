@@ -54,7 +54,7 @@ body {
   width: 55%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .texto-e-botao p {
@@ -72,7 +72,7 @@ body {
   border: none;
   cursor: pointer;
   text-align: center;
-  margin: 0 150px 0 150px; 
+  margin: 0 150px 0px 150px; 
   border-radius: 6px;  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
